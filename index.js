@@ -43,7 +43,7 @@ function renderGame(){
         message = "You're out of the game!"
         isAlive = false
     }
-    messageEl.textContent = alert(message)
+    messageEl.textContent = message
 }
 function newCard() {
      if (isAlive === true && wonBlackjack === false) {
